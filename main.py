@@ -84,7 +84,7 @@ while True:
     text_line("Der aktuelle Sauer-",0,1)
     text_line("stoffgehalt in",1,3)
     text_line("diesem Raum beträgt",2,0)
-    text_line(str(x),4,2)
+    text_line(str(x+" ppm"),4,2)
     oled.rect(0,38,128,20,1)
     oled.show()
     

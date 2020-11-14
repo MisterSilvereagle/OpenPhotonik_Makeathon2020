@@ -82,9 +82,8 @@ while True:
        
     oled.fill(0)
     text_line("Der aktuelle",0,2)
-    text_line("Sauerstoffgehalt",1,3)
-    text_line("in diesem Raum",2,1)
-    text_line("beträgt",3,4)
+    text_line("CO2-Gehalt in",1,3)
+    text_line("diesem Raum beträgt",2,0)
     text_line(str(x+" ppm"),4,2)
     oled.rect(0,38,128,20,1)
     oled.show()
